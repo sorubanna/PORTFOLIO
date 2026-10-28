@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GOURAV SINGH | Personal Profile</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="chatbot.css">
+</head>
+<body>
+  <header class="hero">
+    <p class="eyebrow">Personal Profile</p>
+    <h1>GOURAV SINGH</h1>
+    <p class="tagline">Computer Science student at JECRC University</p>
+  </header>
+
+  <main>
+    <section id="about" class="card">
+      <h2>About</h2>
+      <p>
+        I am a Computer Science student at JECRC University. I am interested in web development and machine learning. I am also interested in AI and robotics.
+        I am a passionate and hardworking student who is always looking for new challenges and opportunities to learn.
+      </p>
+      <p>
+        Write now I am building website for my personal project of cafe.
+      </p>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>Skill-1: AI/ML</li>
+        <li>Skill-2: PYTHON</li>
+        <li>Skill-3: JAVA</li>
+        <li>Skill-4: C++</li>
+        <li>Skill-5: WEB DEVELOPMENT</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+      <ul class="projects-list">
+        <li>
+          <a href="https://github.com/sorubanna/python_basics.git">PYTHON PROJECT</a>
+          <p>Python Basics : A web application that allows users to learn the basics of Python.</p>
+        </li>
+        <li>
+          <a href="https://github.com/sorubanna/quiz.git">QUIZ APP</a>
+          <p>Quiz App : A web application that allows users to take quizzes and track their progress.</p>
+        </li>
+        <li>
+          <a href="https://github.com/sorubanna/Reading_List_app.git">READING LIST APP</a>
+          <p>Reading List App : A web application that allows students to keep track of the books they want to read.</p>
+        </li>
+        <li>
+          <a href="https://github.com/sorubanna/bug_fixing.git">BUG FIXING APP</a>
+          <p>Bug Fixing App: Bug fixing app that debuggs application designed to identify errors, analyse issues and simplify troubleshooting.</p>
+        </li>
+        <li>
+          <a href="https://github.com/sorubanna/messy_code_web.git">MESSY CODE IMPROVEMENT</a>
+          <p>Messy Code Improvement: A small Python script that grades a list of students, prints pass/fail results, and reports class totals</p>
+         </li>
+      </ul>
+    </section>
+  </main>
+  <section id="weather">
+    <h2>Weather</h2>
+
+    <input
+        type="text"
+        id="cityInput"
+        placeholder="Enter a city"
+    >
+
+    <button id="weatherButton">
+        Get Weather
+    </button>
+
+    <div id="weatherResult">
+        Enter a city to see the weather.
+    </div>
+</section>
+  
+<section id="aiChatSection" class="ai-chat">
+  <h2>Ask My AI Assistant</h2>
+
+  <p>
+    Ask questions about this portfolio,
+    projects, and technologies.
+  </p>
+
+  <div
+    id="chatMessages"
+    aria-live="polite"
+  ></div>
+
+  <div class="chat-controls">
+    <input
+      type="text"
+      id="userInput"
+      placeholder="Ask a question..."
+    />
+
+    <button id="sendButton" type="button">
+      Send
+    </button>
+  </div>
+
+  <p id="chatStatus" role="status"></p>
+
+  <p class="chat-note">
+    AI chat is available during the local
+    classroom demonstration only.
+  </p>
+</section>
+
+  <footer>
+    <p>contact email: aditya123@gmail.com</p>
+  </footer>
+  <button id="themeToggle">Switch to Dark Mode</button>
+  <script src="script.js"></script>
+  <script src="config.js"></script>
+  <script src="chatbot.js"></script>
+</body>
+</html>
